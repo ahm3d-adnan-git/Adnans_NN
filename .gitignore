@@ -1,0 +1,8 @@
+# TODO: extend list with suitable entries, e.g. `.vscode`
+# Ignore IDE configuration folders
+.idea/
+.vscode/
+
+# Ignore build directories
+cmake-build-debug/
+build/
