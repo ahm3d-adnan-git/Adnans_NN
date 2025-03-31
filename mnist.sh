@@ -26,7 +26,7 @@ fi
 # Compile main.cpp if the executable does not exist
 EXECUTABLE="./read_config"
 if [ ! -f "$EXECUTABLE" ]; then
-    g++ -o read_config src/main.cpp -std=c++20
+    g++ -fopenmp -O2 -o read_config src/main.cpp -std=c++20
     if [ $? -ne 0 ]; then
         log_info "Compilation failed. Please fix errors in main.cpp."
         exit 1

@@ -34,7 +34,7 @@ fi
 # Compile the main.cpp if needed
 EXECUTABLE="./read_label"
 if [ ! -f "$EXECUTABLE" ]; then
-    g++ -o read_label src/main.cpp -std=c++20
+    g++ -fopenmp -O2 -o read_label src/main.cpp -std=c++20
     if [ $? -ne 0 ]; then
         log_info "Compilation failed. Please fix errors in main.cpp."
         exit 1
