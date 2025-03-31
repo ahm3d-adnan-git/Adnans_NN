@@ -42,5 +42,5 @@ This project is a complete implementation of a fully-connected neural network (F
 ## ⚙️ How to Run
 
 ### 1. Run the run.sh file
-```You should edit the Line which points to your python and then run the run.sh bash script.
+You should edit the Line which points to your python and then run the run.sh bash script.
 
